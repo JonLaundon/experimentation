@@ -1,0 +1,10 @@
+cd /tmp/siftly-clone
+
+# Remove the original Siftly remote
+git remote remove origin
+
+# Add your experimentation repo as the remote
+git remote add origin https://github.com/JonLaundon/experimentation.git
+
+# Push the main branch
+git push -u origin main
